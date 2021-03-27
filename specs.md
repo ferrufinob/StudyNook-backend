@@ -6,7 +6,7 @@
 
 [ ] Translate JSON responses into JavaScript Model objects using ES6 class or constructor function syntax.
 
-[ ] The domain model served by the Rails backend must include a resource with atleast one has-many relationship.
+[x] The domain model served by the Rails backend must include a resource with atleast one has-many relationship.
 
 [ ] The frontend and backend must collaborate to demonstrate Client-Server Communication.
 
