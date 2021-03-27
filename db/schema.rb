@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2021_03_27_040450) do
     t.integer "deck_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["deck_id"], name: "index_cards_on_deck_id"
   end
 
   create_table "decks", force: :cascade do |t|
