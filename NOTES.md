@@ -40,7 +40,7 @@ PS: build one model/ controller at a time up until fetch request and then move t
 
 [x] set up controller for decks rendering JSON(INDEX)
 
-[ ] set up serialization
+[x] set up serialization
 
 [x] table for cards
 
@@ -56,15 +56,30 @@ PS: build one model/ controller at a time up until fetch request and then move t
 
 [ ] set up index.html
 
+[ ] first fetch request => decks(GET/INDEX)
+
 [ ] set up class constructor for decks
 
-[ ] manipulate DOM to display all decks.
+[ ] manipulate DOM to display all decks(index).
+
+[ ] second fetch request => cards(GET/SHOW)
 
 [ ] set up class constructor for cards.
 
-[ ] manipulate DOM to display card belonging to deck.
+[ ] manipulate DOM to display an individual card
 
-## STRETCH GOALS
+[ ] make functions that can dispay next, previous, and flip a card
+
+[ ] third fetch request => card(POST/NEW)
+
+[ ] can create a new card that also establishes relationship to the corresponding deck(fetch & can display created card)
+
+[ ] Review code and remove unnecessary functions/clean up.
+
+## STRETCH GOALS/Future Goals
 
     - DELETE request for cards
+    - PATCH request for cards
     - search bar
+    - dark mode
+    - user model
