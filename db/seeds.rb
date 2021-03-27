@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+ruby = Deck.create(name: "Ruby")
+rails = Deck.create(name: "Rails")
+javascript = Deck.create(name: "JavaScript")
+computer_science = Deck.create(name: "Computer Science")

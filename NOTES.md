@@ -14,30 +14,34 @@
 
 ## User Interface
 
-    - When user first loads webpage, they see a list of decks.
-    - User clicks on deck and sees the first card on the deck.
-    - User clicks on the card to flip it to the back.
-    - User will click the next arrow to see the next card and the back arrow to see previous card.
-    - User can create a new card on a deck and that card will be added to the end of the deck.
+- When user first loads webpage, they see a list of decks.
+- User clicks on deck and sees the first card on the deck.
+- User clicks on the card to flip it to the back.
+- User will click the next arrow to see the next card and the back arrow to see previous card.
+- User can create a new card on a deck and that card will be added to the end of the deck.
 
 ## AJAX/ FETCH REQUESTS
 
-    - READ Decks(1st request) => GET => "localhost:3000/decks"
-    - READ Card show page(2nd request) => GET => "localhost:3000/cards/id" (is this going to be a nested url under decks????)
-    - CREATE a new card(3rd request) => POST => "localhost:3000/cards/new"
+- READ Decks(1st request) => GET => "localhost:3000/decks"
+- READ Card show page(2nd request) => GET => "localhost:3000/cards/id" (is this going to be a nested url under decks????)
+- CREATE a new card(3rd request) => POST => "localhost:3000/cards/new"
 
 ## Set Up Plan
 
-PS: do one model/ controller at a time!!!
+PS: build one model/ controller at a time up until fetch request and then move to next model!!!
 
 1. Set up backend
 
    1. table for decks
-   2. set up controller for decks(INDEX)
-   3. set up serialization
-   4. table for cards
-   5. set up controller for cards(SHOW & CREATE)
-   6. set up serialization
+   2. model class and associations for deck
+   3. create seed data
+   4. set up controller for decks rendering JSON(INDEX)
+   5. set up serialization
+   6. table for cards
+   7. model class and associations for card
+   8. create seed data
+   9. set up controller for cards rendering JSON(SHOW & CREATE)
+   10. set up serialization
 
 2. set up front end
    1. set up index.html broilerplate.
