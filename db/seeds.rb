@@ -10,3 +10,5 @@ ruby = Deck.create(name: "Ruby")
 rails = Deck.create(name: "Rails")
 javascript = Deck.create(name: "JavaScript")
 computer_science = Deck.create(name: "Computer Science")
+
+Card.create(front: "this", back: "Inside a function, this is the Object that represents the functions execution context. this depends on where the method is called or used, not where it is defined.", deck_id: javascript.id)
