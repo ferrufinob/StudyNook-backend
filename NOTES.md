@@ -2,12 +2,12 @@
 
 ## MODELS
 
-## Deck
+### Deck
 
     - attributes: name
     - has_many :cards
 
-## Card
+### Card
 
     - attributes: front, back
     - belongs_to :deck
@@ -30,25 +30,39 @@
 
 PS: build one model/ controller at a time up until fetch request and then move to next model!!!
 
-1. Set up backend
+### Set up backend
 
-   [x] table for decks
-   [x] model class and associations for deck
-   [x] create seed data
-   [x] set up controller for decks rendering JSON(INDEX)
-   [ ] set up serialization
-   [x] table for cards
-   [x] model class and associations for card
-   [x] create seed data
-   [ ] set up controller for cards rendering JSON(SHOW & CREATE)
-   [ ] set up serialization
+[x] table for decks
 
-2. set up front end
-   [ ] set up index.html
-   [ ] set up class constructor for decks
-   [ ] manipulate DOM to display all decks.
-   [ ] set up class constructor for cards.
-   [ ] manipulate DOM to display card belonging to deck.
+[x] model class and associations for deck
+
+[x] create seed data
+
+[x] set up controller for decks rendering JSON(INDEX)
+
+[ ] set up serialization
+
+[x] table for cards
+
+[x] model class and associations for card
+
+[x] create seed data
+
+[ ] set up controller for cards rendering JSON(SHOW & CREATE)
+
+[ ] set up serialization
+
+### Set up front end
+
+[ ] set up index.html
+
+[ ] set up class constructor for decks
+
+[ ] manipulate DOM to display all decks.
+
+[ ] set up class constructor for cards.
+
+[ ] manipulate DOM to display card belonging to deck.
 
 ## STRETCH GOALS
 
