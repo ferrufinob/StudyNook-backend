@@ -4,7 +4,7 @@
 
 [ ] The javaScript application must use Object Oriented JavaScript(classes) to encapsulate related data and behavior.
 
-[ ] Translate JSON responses into JavaScript Model objects usig ES6 class or constructor function syntax.
+[ ] Translate JSON responses into JavaScript Model objects using ES6 class or constructor function syntax.
 
 [ ] The domain model served by the Rails backend must include a resource with atleast one has-many relationship.
 
