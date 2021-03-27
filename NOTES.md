@@ -24,7 +24,7 @@
 
 - READ Decks(1st request) => GET => "localhost:3000/api/v1/decks"
 - READ Card show page(2nd request) => GET => "localhost:3000/api/v1/cards/id" (is this going to be a nested url under decks????)
-- CREATE a new card(3rd request) => POST => "localhost:3000/api/v1/cards/new"
+- CREATE a new card(3rd request) => POST => will this be nested also???
 
 ## Set Up Plan
 
@@ -52,6 +52,8 @@ PS: build one model/ controller at a time up until fetch request and then move t
 
 [ ] set up serialization
 
+[ ] have error messages
+
 ### Set up front end
 
 [ ] set up index.html
@@ -73,6 +75,8 @@ PS: build one model/ controller at a time up until fetch request and then move t
 [ ] third fetch request => card(POST/NEW)
 
 [ ] can create a new card that also establishes relationship to the corresponding deck(fetch & can display created card)
+
+[ ] dislay errors with .catch()
 
 [ ] Review code and remove unnecessary functions/clean up.
 
