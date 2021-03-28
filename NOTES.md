@@ -50,7 +50,7 @@ PS: build one model/ controller at a time up until fetch request and then move t
 
 [ ] set up controller for cards rendering JSON(SHOW & CREATE)
 
-[ ] set up serialization
+[x] set up serialization
 
 [ ] have error messages
 
@@ -72,7 +72,7 @@ PS: build one model/ controller at a time up until fetch request and then move t
 
 [ ] make functions that can dispay next, previous, and flip a card
 
-[ ] third fetch request => card(POST/NEW)
+[ ] third fetch request => card(POST/CREATE)
 
 [ ] can create a new card that also establishes relationship to the corresponding deck(fetch & can display created card)
 
@@ -87,3 +87,5 @@ PS: build one model/ controller at a time up until fetch request and then move t
     - search bar
     - dark mode
     - user model
+    - accessibility
+    - responsive css to work in all types of devices and screen sizes.
