@@ -19,6 +19,15 @@ class Api::V1::CardsController < ApplicationController
     end
   end
 
+  def update
+    card = Card.find_by_id(params[:id])
+    if card.update(card_params)
+      render json: CardSerializer.new(card)
+    else
+      render json: { error: card.errors.full_messages }
+    end
+  end
+
   private
 
   def card_params
