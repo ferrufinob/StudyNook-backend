@@ -74,11 +74,27 @@ PS: build one model/ controller at a time up until fetch request and then move t
 
 [x] third fetch request => card(POST/CREATE)
 
-[] can create a new card that also establishes relationship to the corresponding deck(fetch & can display created card)
+[x] can create a new card that also establishes relationship to the corresponding deck(fetch & can display created card)
 
-[] dislay errors with .catch()
+### Remainder
+
+[ ] Add card update functionality.
+
+[ ] Add card delete functionality.
+
+[ ] Display errors to user.
+
+[ ] When new card gets added update deck count as well.
+
+[ ] Dislay errors with .catch()
+
+[ ] Remove any varible names that don't follow JS conventions.
 
 [ ] Review code and remove unnecessary functions/clean up.
+
+[ ] note to self: make sure I have atleast 3 days between project completion and assessment to review
+[ ] Practice: sorting, filtering, find, review JS review sheet.
+[ ] Practice: appending random items to the dom, make sure my code is readable and easy to change on the spot.
 
 ## STRETCH GOALS/Future Goals
 
