@@ -56,27 +56,27 @@ PS: build one model/ controller at a time up until fetch request and then move t
 
 ### Set up front end
 
-[ ] set up index.html
+[x] set up index.html
 
-[ ] first fetch request => decks(GET/INDEX)
+[x] first fetch request => decks(GET/INDEX)
 
-[ ] set up class constructor for decks
+[x] set up class constructor for decks
 
-[ ] manipulate DOM to display all decks(index).
+[x] manipulate DOM to display all decks(index).
 
-[ ] second fetch request => cards(GET/SHOW)
+[x] second fetch request => cards(GET/SHOW)
 
-[ ] set up class constructor for cards.
+[x] set up class constructor for cards.
 
-[ ] manipulate DOM to display an individual card
+[x] manipulate DOM to display an individual card
 
-[ ] make functions that can dispay next, previous, and flip a card
+[x] make functions that can dispay next, previous, and flip a card
 
-[ ] third fetch request => card(POST/CREATE)
+[x] third fetch request => card(POST/CREATE)
 
-[ ] can create a new card that also establishes relationship to the corresponding deck(fetch & can display created card)
+[] can create a new card that also establishes relationship to the corresponding deck(fetch & can display created card)
 
-[ ] dislay errors with .catch()
+[] dislay errors with .catch()
 
 [ ] Review code and remove unnecessary functions/clean up.
 
