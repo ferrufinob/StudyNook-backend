@@ -15,7 +15,7 @@ class Api::V1::CardsController < ApplicationController
     if card.save
       render json: CardSerializer.new(card)
     else
-      render json: { error: card.errors.full_messages }
+      render json: { errors: card.errors.full_messages.to_sentence }
     end
   end
 
