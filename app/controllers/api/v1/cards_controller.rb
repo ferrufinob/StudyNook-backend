@@ -5,11 +5,6 @@ class Api::V1::CardsController < ApplicationController
     render json: CardSerializer.new(cards)
   end
 
-  def show
-    card = Card.find_by_id(params[:id])
-    render json: CardSerializer.new(card)
-  end
-
   def create
     card = Card.new(card_params)
     if card.save
@@ -24,8 +19,14 @@ class Api::V1::CardsController < ApplicationController
     if card.update(card_params)
       render json: CardSerializer.new(card)
     else
-      render json: { error: card.errors.full_messages }
+      render json: { error: card.errors.full_messages.to_sentence }
     end
+  end
+
+  def destroy
+    card = Card.find_by_id(params[:id])
+    card.destroy
+    render json: { message: "successfully deleted" }
   end
 
   private

@@ -6,7 +6,7 @@ Rails.application.routes.draw do
       resources :decks, only: [:index] do
         resources :cards, only: [:index]
       end
-      resources :cards, only: [:index, :show, :create, :update]
+      resources :cards, only: [:index, :create, :update, :destroy]
     end
   end
 end

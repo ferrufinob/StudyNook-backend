@@ -31,3 +31,20 @@
 
 en:
   hello: "Hello world"
+
+en:
+  activerecord:
+    attributes:
+      card:
+        front: "Question"
+        back: "Answer"
+    errors:
+      models:
+        card:
+          attributes:
+            front:
+            blank: "cant' be blank"
+            back:
+              blank: "cant' be blank"
+
+              
