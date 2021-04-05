@@ -48,11 +48,11 @@ PS: build one model/ controller at a time up until fetch request and then move t
 
 [x] create seed data
 
-[ ] set up controller for cards rendering JSON(SHOW & CREATE)
+[x] set up controller for cards rendering JSON(SHOW & CREATE)
 
 [x] set up serialization
 
-[ ] have error messages
+[x] have error messages
 
 ### Set up front end
 
@@ -80,27 +80,29 @@ PS: build one model/ controller at a time up until fetch request and then move t
 
 [ ] Add card update functionality.
 
-[ ] Add card delete functionality.
+[x] Add card delete functionality.
 
-[ ] Display errors to user.
+[x] Display errors to user.
 
 [ ] When new card gets added update deck count as well.
 
-[ ] Dislay errors with .catch()
+[x] Dislay errors with .catch()
 
-[ ] Remove any varible names that don't follow JS conventions.
+[x] Remove any varible names that don't follow JS conventions.
 
 [ ] Review code and remove unnecessary functions/clean up.
 
 [ ] note to self: make sure I have atleast 3 days between project completion and assessment to review
-[ ] Practice: sorting, filtering, find, review JS review sheet.
-[ ] Practice: appending random items to the dom, make sure my code is readable and easy to change on the spot.
+
+[ ] Practice: sorting, filtering, find, review JS concept questions.
+
+[ ] Practice: appending random items to the dom, make sure my code is readable and easy to change and add new functionality on the spot for review.
 
 ## STRETCH GOALS/Future Goals
 
-    - DELETE request for cards
     - PATCH request for cards
     - search bar
+    - don't display all cards at once display one at a time by clicking next or previous
     - dark mode
     - user model
     - accessibility

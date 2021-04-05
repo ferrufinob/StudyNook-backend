@@ -20,6 +20,6 @@
 
 ## GIT
 
-[ ] Aim for a large number of commit- commit frequently!!
+[x] Aim for a large number of commit- commit frequently!!
 
-[ ] ADD meaningful messages for your commit.
+[x] ADD meaningful messages for your commit.
