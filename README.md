@@ -39,6 +39,7 @@ open index.html
 - [ ] ability to edit a flashcard
 - [ ] dark mode
 - [ ] user model
+- [ ] display and update card count in deck view page any time a new flashcard is added.
 
 ## Contributing
 
