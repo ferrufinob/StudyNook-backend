@@ -1,24 +1,51 @@
-# README
+# StudyNook
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+StudyNook provides users with 4 deck categories to add flashcards to.
 
-Things you may want to cover:
+## Current Functionality
 
-* Ruby version
+- [x] can organize their flashcards by deck categories provided.
+- [x] can flip be flipped to view answer.
+- [x] can delete flashcard
+- [x] search bar is available to fliter through question and answers.
 
-* System dependencies
+![app](app.gif)
 
-* Configuration
+[Frontend Repo]("https://github.com/ferrufinob/StudyNook-frontend")
 
-* Database creation
+## Installation
 
-* Database initialization
+### Backend
 
-* How to run the test suite
+```ruby
+git clone
+bundle install
+rails db:migrate
+rails db:seed
+rails s
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Open browser to 'http://localhost/3000' to start Rails API.
 
-* Deployment instructions
+### Frontend
 
-* ...
+```ruby
+git clone
+open index.html
+```
+
+### Future Development
+
+- [ ] ability to edit a flashcard
+- [ ] dark mode
+- [ ] user model
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
