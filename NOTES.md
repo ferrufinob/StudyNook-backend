@@ -78,7 +78,7 @@ PS: build one model/ controller at a time up until fetch request and then move t
 
 ### Remainder
 
-[ ] Add card update functionality.
+[x] Add Search Bar
 
 [x] Add card delete functionality.
 
@@ -90,7 +90,7 @@ PS: build one model/ controller at a time up until fetch request and then move t
 
 [x] Remove any varible names that don't follow JS conventions.
 
-[ ] Review code and remove unnecessary functions/clean up.
+[x] Review code and remove unnecessary functions/clean up.
 
 [ ] note to self: make sure I have atleast 3 days between project completion and assessment to review
 
@@ -100,8 +100,8 @@ PS: build one model/ controller at a time up until fetch request and then move t
 
 ## STRETCH GOALS/Future Goals
 
+    - when new card gets added update the card count to display on deck div
     - PATCH request for cards
-    - search bar
     - don't display all cards at once display one at a time by clicking next or previous
     - dark mode
     - user model

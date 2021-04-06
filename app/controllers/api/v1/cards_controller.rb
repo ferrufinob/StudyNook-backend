@@ -25,8 +25,9 @@ class Api::V1::CardsController < ApplicationController
 
   def destroy
     card = Card.find_by_id(params[:id])
-    card.destroy
-    render json: { message: "successfully deleted" }
+    if card.destroy
+      render json: { message: "successfully deleted" }
+    end
   end
 
   private
