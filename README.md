@@ -35,11 +35,12 @@ git clone
 open index.html
 ```
 
-### Future Development
+### Future Features
 
 - [ ] dark mode
 - [ ] user model
-- [ ] display and update card count in deck view page any time a new flashcard is added.
+- [ ] user can create their own decks
+- [ ] user can bookmark other users decks
 
 ## Contributing
 
