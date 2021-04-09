@@ -84,26 +84,26 @@ PS: build one model/ controller at a time up until fetch request and then move t
 
 [x] Display errors to user.
 
-[ ] When new card gets added update deck count as well.
+[x] PATCH request
 
 [x] Dislay errors with .catch()
 
-[x] Remove any varible names that don't follow JS conventions.
+[x] Remove any variable names that don't follow JS conventions.
 
 [x] Review code and remove unnecessary functions/clean up.
 
-[ ] note to self: make sure I have atleast 3 days between project completion and assessment to review
+[x] note to self: make sure I have atleast 3 days between project completion and assessment to review
 
 [ ] Practice: sorting, filtering, find, review JS concept questions.
 
-[ ] Practice: appending random items to the dom, make sure my code is readable and easy to change and add new functionality on the spot for review.
+[ ] Practice: appending random items to the dom, make sure my code is readable and easy to change to add new functionality on the spot for review.
 
 ## STRETCH GOALS/Future Goals
 
-    - when new card gets added update the card count to display on deck div
-    - PATCH request for cards
-    - don't display all cards at once display one at a time by clicking next or previous
     - dark mode
     - user model
+    - user can create decks
+    - user can bookmark other users cards
+    - apply nicky dovers search form from toy-tales OOjs refactor for better search
     - accessibility
     - responsive css to work in all types of devices and screen sizes.
