@@ -7,7 +7,7 @@ class Api::V1::DecksController < ApplicationController
   def create
     deck = Deck.new(deck_params)
     if deck.save
-      render json: Deck.Serializer.new(card)
+      render json: DeckSerializer.new(deck)
     else
       render json: { errors: deck.errors.full_messages.to_sentence }
     end
