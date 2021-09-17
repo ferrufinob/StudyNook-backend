@@ -10,9 +10,21 @@ StudyNook provides users a place to organize and study developer flashcards.
 - [x] search bar filters through questions and answers
 - [x] card flip
 
+![last commit](https://img.shields.io/github/last-commit/ferrufinob/StudyNook-frontend)g
+
 [Frontend Repo](https://github.com/ferrufinob/StudyNook-frontend.git)
 
-![app](app_demo.gif)
+[View LIVE](https://studynook-flashcards.netlify.app/)
+
+## DEMO
+
+![app](demo.gif)
+
+## Built with
+
+- Vanilla JavaScript
+- Rails 6 API
+- Postresql database
 
 ## Installation
 
@@ -21,8 +33,7 @@ StudyNook provides users a place to organize and study developer flashcards.
 ```ruby
 git clone
 bundle install
-rails db:migrate
-rails db:seed
+rake db:setup
 rails s
 ```
 
