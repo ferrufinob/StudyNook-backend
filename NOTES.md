@@ -102,7 +102,6 @@ PS: build one model/ controller at a time up until fetch request and then move t
 
     - dark mode
     - user model
-    - user can create decks
     - user can bookmark other users cards
     - apply nicky dovers search form from toy-tales OOjs refactor for better search
     - accessibility

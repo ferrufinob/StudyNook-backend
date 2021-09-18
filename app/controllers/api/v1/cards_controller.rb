@@ -1,6 +1,5 @@
 class Api::V1::CardsController < ApplicationController
   def index
-    # cards = Deck.find_by(id: params[:deck_id]).cards
     cards = Card.all
     render json: CardSerializer.new(cards)
   end
